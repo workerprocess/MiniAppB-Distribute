@@ -1,0 +1,373 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "MiniAppB",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "MiniAppB",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "MiniAppB"
+      },
+      {
+        "kind": "Import",
+        "name": "LogicCalculate",
+        "printedName": "LogicCalculate",
+        "declKind": "Import",
+        "moduleName": "MiniAppB"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LauncherMiniApp",
+        "printedName": "LauncherMiniApp",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "OpenView2",
+            "printedName": "OpenView2(openView:title:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnyView",
+                "printedName": "SwiftUI.AnyView",
+                "usr": "s:7SwiftUI7AnyViewV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Binding",
+                "printedName": "SwiftUI.Binding<Swift.Bool>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:7SwiftUI7BindingV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8MiniAppB08LauncheraB0C9OpenView28openView5title7SwiftUI03AnyG0VAG7BindingVySbG_SStF",
+            "mangledName": "$s8MiniAppB08LauncheraB0C9OpenView28openView5title7SwiftUI03AnyG0VAG7BindingVySbG_SStF",
+            "moduleName": "MiniAppB",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "OpenView",
+            "printedName": "OpenView(openView:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnyView",
+                "printedName": "SwiftUI.AnyView",
+                "usr": "s:7SwiftUI7AnyViewV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Binding",
+                "printedName": "SwiftUI.Binding<Swift.Bool>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:7SwiftUI7BindingV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:8MiniAppB08LauncheraB0C8OpenView04openE07SwiftUI03AnyE0VAF7BindingVySbG_tF",
+            "mangledName": "$s8MiniAppB08LauncheraB0C8OpenView04openE07SwiftUI03AnyE0VAF7BindingVySbG_tF",
+            "moduleName": "MiniAppB",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LauncherMiniApp",
+                "printedName": "MiniAppB.LauncherMiniApp",
+                "usr": "s:8MiniAppB08LauncheraB0C"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:8MiniAppB08LauncheraB0CACycfc",
+            "mangledName": "$s8MiniAppB08LauncheraB0CACycfc",
+            "moduleName": "MiniAppB",
+            "declAttributes": [
+              "Required",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:8MiniAppB08LauncheraB0C",
+        "mangledName": "$s8MiniAppB08LauncheraB0C",
+        "moduleName": "MiniAppB",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "MiniAppGateway",
+            "printedName": "MiniAppGateway",
+            "usr": "s:14LogicCalculate14MiniAppGatewayP",
+            "mangledName": "$s14LogicCalculate14MiniAppGatewayP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "MiniAppB",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/ekachai\/Downloads\/prototype\/MiniAppB\/MiniAppB\/view1.swift",
+      "kind": "StringLiteral",
+      "offset": 196,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ekachai\/Downloads\/prototype\/MiniAppB\/MiniAppB\/view1.swift",
+      "kind": "BooleanLiteral",
+      "offset": 240,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ekachai\/Downloads\/prototype\/MiniAppB\/MiniAppB\/view1.swift",
+      "kind": "FloatLiteral",
+      "offset": 323,
+      "length": 3,
+      "value": "0.3"
+    },
+    {
+      "filePath": "\/Users\/ekachai\/Downloads\/prototype\/MiniAppB\/MiniAppB\/view1.swift",
+      "kind": "StringLiteral",
+      "offset": 404,
+      "length": 29,
+      "value": "\"Hello, World! from \""
+    },
+    {
+      "filePath": "\/Users\/ekachai\/Downloads\/prototype\/MiniAppB\/MiniAppB\/view1.swift",
+      "kind": "StringLiteral",
+      "offset": 432,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ekachai\/Downloads\/prototype\/MiniAppB\/MiniAppB\/view1.swift",
+      "kind": "IntegerLiteral",
+      "offset": 472,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/ekachai\/Downloads\/prototype\/MiniAppB\/MiniAppB\/view1.swift",
+      "kind": "StringLiteral",
+      "offset": 527,
+      "length": 7,
+      "value": "\"Close\""
+    },
+    {
+      "filePath": "\/Users\/ekachai\/Downloads\/prototype\/MiniAppB\/MiniAppB\/view1.swift",
+      "kind": "BooleanLiteral",
+      "offset": 573,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ekachai\/Downloads\/prototype\/MiniAppB\/MiniAppB\/view1.swift",
+      "kind": "IntegerLiteral",
+      "offset": 635,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/ekachai\/Downloads\/prototype\/MiniAppB\/MiniAppB\/view1.swift",
+      "kind": "StringLiteral",
+      "offset": 666,
+      "length": 19,
+      "value": "\"Open Another View\""
+    },
+    {
+      "filePath": "\/Users\/ekachai\/Downloads\/prototype\/MiniAppB\/MiniAppB\/view1.swift",
+      "kind": "BooleanLiteral",
+      "offset": 731,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ekachai\/Downloads\/prototype\/MiniAppB\/MiniAppB\/LauncherMiniApp.swift",
+      "kind": "StringLiteral",
+      "offset": 522,
+      "length": 22,
+      "value": "\"Init launcherMiniApp\""
+    },
+    {
+      "filePath": "\/Users\/ekachai\/Downloads\/prototype\/MiniAppB\/MiniAppB\/view2.swift",
+      "kind": "IntegerLiteral",
+      "offset": 232,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/ekachai\/Downloads\/prototype\/MiniAppB\/MiniAppB\/view2.swift",
+      "kind": "StringLiteral",
+      "offset": 257,
+      "length": 7,
+      "value": "\"Close\""
+    },
+    {
+      "filePath": "\/Users\/ekachai\/Downloads\/prototype\/MiniAppB\/MiniAppB\/view2.swift",
+      "kind": "BooleanLiteral",
+      "offset": 302,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ekachai\/Downloads\/prototype\/MiniAppB\/MiniAppB\/view2.swift",
+      "kind": "IntegerLiteral",
+      "offset": 367,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/ekachai\/Downloads\/prototype\/MiniAppB\/MiniAppB\/view2.swift",
+      "kind": "IntegerLiteral",
+      "offset": 371,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/ekachai\/Downloads\/prototype\/MiniAppB\/MiniAppB\/view2.swift",
+      "kind": "StringLiteral",
+      "offset": 413,
+      "length": 12,
+      "value": "\"i is \""
+    },
+    {
+      "filePath": "\/Users\/ekachai\/Downloads\/prototype\/MiniAppB\/MiniAppB\/view2.swift",
+      "kind": "StringLiteral",
+      "offset": 424,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ekachai\/Downloads\/prototype\/MiniAppB\/MiniAppB\/view2.swift",
+      "kind": "Array",
+      "offset": 504,
+      "length": 17,
+      "value": "[21, 42, 2, 7, 32, 15]"
+    },
+    {
+      "filePath": "\/Users\/ekachai\/Downloads\/prototype\/MiniAppB\/MiniAppB\/view2.swift",
+      "kind": "StringLiteral",
+      "offset": 562,
+      "length": 7,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ekachai\/Downloads\/prototype\/MiniAppB\/MiniAppB\/view2.swift",
+      "kind": "StringLiteral",
+      "offset": 568,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ekachai\/Downloads\/prototype\/MiniAppB\/MiniAppB\/view2.swift",
+      "kind": "Array",
+      "offset": 648,
+      "length": 22,
+      "value": "[\"red\", \"green\", \"blue\"]"
+    },
+    {
+      "filePath": "\/Users\/ekachai\/Downloads\/prototype\/MiniAppB\/MiniAppB\/view2.swift",
+      "kind": "StringLiteral",
+      "offset": 711,
+      "length": 7,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ekachai\/Downloads\/prototype\/MiniAppB\/MiniAppB\/view2.swift",
+      "kind": "StringLiteral",
+      "offset": 717,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ekachai\/Downloads\/prototype\/MiniAppB\/MiniAppB\/view2.swift",
+      "kind": "IntegerLiteral",
+      "offset": 757,
+      "length": 2,
+      "value": "50"
+    },
+    {
+      "filePath": "\/Users\/ekachai\/Downloads\/prototype\/MiniAppB\/MiniAppB\/view2.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1034,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/ekachai\/Downloads\/prototype\/MiniAppB\/MiniAppB\/view2.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1046,
+      "length": 2,
+      "value": "50"
+    }
+  ]
+}
